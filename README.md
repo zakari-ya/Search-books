@@ -28,7 +28,7 @@ A modern and intuitive web application for searching books using the Open Librar
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/book-search-app.git
+   git clone https://github.com/zakari-ya/book-search-app.git
    ```
 
 2. **Navigate to the project directory**
