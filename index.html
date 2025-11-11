@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <title>Recherche de Livres</title>
+    <title>𝑅𝑒𝒸𝒽𝑒𝓇𝒸𝒽𝑒 𝒹𝑒𝓈 𝐿𝒾𝓋𝓇𝑒𝓈</title>
     <link rel="stylesheet" href="style.css">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="faveicon.ico" type="image/x-icon">
 </head>
-
 <body>
-    <h1>Recherche de Livres</h1>
-
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Entrez le titre d'un livre...">
-        <button onclick="searchBooks()">Rechercher</button>
+    <!-- Floating paper elements for artistic effect -->
+    <div class="floating-paper"></div>
+    <div class="floating-paper"></div>
+    
+    <div class="main-container">
+        <h1>𝑅𝑒𝒸𝒽𝑒𝓇𝒸𝒽𝑒 𝒹𝑒𝓈 𝐿𝒾𝓋𝓇𝑒𝓈</h1>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter book title...">
+            <button onclick="searchBooks()">Discover</button>
+        </div>
+        
+        <div id="loading" class="loading">Searching the archives</div>
+        <div id="results"></div>
+        
+        <!-- Corner elements -->
+        <div class="bottom-left"></div>
+        <div class="bottom-right"></div>
     </div>
-
-    <div id="loading" class="loading">Chargement...</div>
-    <div id="results"></div>
-
- 
+    
+    <div class="art-footer">
+        The Art of Discovery • Black & White Edition
+    </div>
+    
     <script src="script.js"></script>
 </body>
-
 </html>
